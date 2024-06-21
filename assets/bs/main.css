@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(to right, #ffffff, #000000);
+
+    height: max-content;
+    width: max-content;
+    overflow-x: hidden;
+}
+
+#about-section, #login-form, #registration-form {
+    font-family: Arial, sans-serif;z
+    display: none;
+}
+
+#about-section:target, #login-form:target, #registration-form:target {
+    display: block;
+}
+
+.btn-fullscreen {
+    width: 100%;
+}
+
+
+  .card {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(22, 20, 19);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .card-image {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+main {
+user-select: none;
+    margin-top: 150px;
+}
+
+
+.description {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.signature img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+
+
+.recipient-name {
+    color: darkgreen;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+
+@media print{
+    
+main {
+    margin-top: 0px;
+    width: max-content;
+}
+     .certificate {
+         margin:50px;
+                  width: max-content;
+    padding: 20px;
+    border: 6px solid darkgreen;
+    background-color: gainsboro;
+            }
+            .buttons-container,.navbar {
+                display: none;
+            }
+            
+}
+@media not print {
+    .certificate {
+        width: max-content;
+        padding: 20px;
+        border: 6px solid darkgreen;
+        background-color: gainsboro;
+    }
+    
+    .buttons-container {
+        display: flex;
+        justify-content: center;
+        margin:40px;
+  
+    }
+
+   
+}
+
+    
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
