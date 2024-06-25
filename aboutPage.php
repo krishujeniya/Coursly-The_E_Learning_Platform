@@ -8,18 +8,18 @@ echo '
       <p>Our goal is to create user-friendly and visually appealing web applications that provide seamless experiences. I
         am detail-oriented, collaborative, and always eager to learn and grow as a developer.</p>
         
-      <h5>Devloped By :-       <a href="https://portfolio-of-krish-ujeniya.000webhostapp.com" target="_blank" class="m-2 text-decoration-none text-dark">AI DRAGO Team</a>
+      <h5>Devloped By :-       <a href="" target="_blank" class="m-2 text-decoration-none text-dark">AI DRAGO Team</a>
 
  </h5>
       
       <div class="container m-3 ">
-         <a href="https://wa.me/message/NLSVHWYZLURIG1" class="m-2"> <img src="assets/img/whatsapp.png" alt="" width="36px"></a>
-         <a href="https://twitter.com/ai_drago_21" class="m-2"> <img src="assets/img/twitter.png" alt="" width="36px"></a>
-         <a href="https://instagram.com/krish_ll21ll?igshid=ZGUzMzM3NWJiOQ==" class="m-2"> <img src="assets/img/instagram.png" alt="" width="36px"></a>
-         <a href="https://www.facebook.com/krish.ujeniya.9" class="m-2"> <img src="assets/img/facebook.png" alt="" width="36px"></a>
-         <a href="https://youtube.com/@aidrago8819" class="m-2"> <img src="assets/img/youtube.png" alt="" width="36px"></a>
-         <a href="https://www.snapchat.com/add/krish_ll21ll?share_id=dt6lrLoeemk&locale=en-US" class="m-2"> <img src="assets/img/snapchat.png" alt="" width="36px"></a>
-         <a href="https://github.com/AIDRAGO21/?fbclid=PAAaZO6MrQBvYAW_1fMSho0DE5kUe4uZ-c-KYmO2J-3IYIOuX4KKfPJrtwg9E" class="m-2"> <img src="assets/img/github.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/whatsapp.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/twitter.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/instagram.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/facebook.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/youtube.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/snapchat.png" alt="" width="36px"></a>
+         <a href="" class="m-2"> <img src="assets/img/github.png" alt="" width="36px"></a>
         </div>
     </div>
   
