@@ -10,8 +10,8 @@
 <div align="center">     
 
    <a href="https://bit.ly/Coursly"><img src="assets/img/logo1.png" alt="Logo" width="80" height="80"></a>
-  <a href="https://bit.ly/Coursly">
-<h1 align="center">Coursly-The E Learning Platform</h1></a>
+ 
+<h1 align="center"> <a href="https://bit.ly/Coursly">Coursly-The E Learning Platform</a></h1>
 </div>
 
 <details>
