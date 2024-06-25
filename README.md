@@ -82,15 +82,10 @@ To get a local copy up and running, follow these steps.
    git clone https://github.com/krishujeniya/Coursly-The_E_Learning_Platform.git
    cd Coursly-The_E_Learning_Platform
    ```
-2. Install Composer dependencies
+2. Start Docker Server
    ```sh
-   composer install
+   sudo docker compose up --build
    ```
-3. Run the application
-   ```sh
-   php -S localhost:8000
-   ```
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
