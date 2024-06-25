@@ -14,7 +14,9 @@ use PHPMailer\PHPMailer\SMTP;
  function SendOTP($email){
       // Generate a random OTP
 $otp = mt_rand(100000, 999999);
+$myemail = getenv('MY_EMAIL');
 
+$myemailpass = getenv('MY_EMAILPASS');
 
 // Send the OTP to the user's email
 $to = $email;
@@ -35,7 +37,7 @@ Best regards,
 AI DRAGO Team<br>
 <br><br>Your OTP is: " . $otp;
 
-$headers = "From: aidrago0021@gmail.com"; // Replace with your email address
+$headers = "From: $myemail"; // Replace with your email address
 
 
 
@@ -49,13 +51,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';  // Replace with your SMTP server
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'aidrago0021@gmail.com';  // Replace with your SMTP username
-    $mail->Password   = 'khmdxzndfhejgajg';  // Replace with your SMTP password
+    $mail->Username   = $myemail;  // Replace with your SMTP username
+    $mail->Password   = $myemailpass;  // Replace with your SMTP password
     $mail->SMTPSecure = 'ssl';  // Enable TLS encryption (or SSL if required)
     $mail->Port       = 465;  // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('aidrago0021@gmail.com', 'Coursly');  // Replace with your email and name
+    $mail->setFrom($myemail, 'Coursly');  // Replace with your email and name
     $mail->addAddress($to);  // Use the user's email address
 
     // Content
