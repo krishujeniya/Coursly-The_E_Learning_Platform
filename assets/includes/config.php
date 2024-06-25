@@ -1,6 +1,14 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "id20998313_admin", "admin@Coursly21", "id20998313_admin");
+
+$servername = 'localhost';
+$username = getenv('MYSQL_USER');
+$password = getenv('MYSQL_PASSWORD');
+$dbname = getenv('MYSQL_DATABASE');
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
 
 if (isset($_SESSION['email'])) {
   $email = $_SESSION['email'];
