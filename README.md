@@ -83,8 +83,13 @@ To get a local copy up and running, follow these steps.
    ```
 2. Start Docker Server
    ```sh
-   sudo docker compose up --build
+   sudo docker compose up --buildhttp://localhost/
    ```
+3. Open Broswer on
+   ```sh
+   http://localhost:80
+   ```
+   
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
