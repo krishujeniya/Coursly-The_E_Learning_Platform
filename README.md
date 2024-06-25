@@ -7,11 +7,11 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">      <a href="https://bit.ly/Coursly">
+<div align="center">     
 
-  <img src="assets/img/logo1.png" alt="Logo" width="80" height="80"></a>
-<a href="https://bit.ly/Coursly">
-  <h1 align="center">Coursly-The E Learning Platform</h1></a>
+   <a href="https://bit.ly/Coursly"><img src="assets/img/logo1.png" alt="Logo" width="80" height="80"></a>
+  <a href="https://bit.ly/Coursly">
+<h1 align="center">Coursly-The E Learning Platform</h1></a>
 </div>
 
 <details>
