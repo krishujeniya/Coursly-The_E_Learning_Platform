@@ -73,7 +73,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 - **PHP**: Ensure you have the latest version of PHP installed. [PHP Installation Guide](https://www.php.net/manual/en/install.php)
-- **SMTP**: Ensure you have the latest version of SMTP enabled. [SMTP_Enable Guide](https://www.gmass.co/blog/gmail-smtp/)
+- **SMTP**: Ensure you have enabled SMTP on your gmail. [SMTP_Enable Guide](https://www.gmass.co/blog/gmail-smtp/)
 
 ### Installation
 
