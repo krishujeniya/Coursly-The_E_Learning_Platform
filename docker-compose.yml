@@ -23,6 +23,8 @@ services:
       - MYSQL_USER=root
       - MYSQL_PASSWORD=password
       - MYSQL_DATABASE=students
+      - MYEMAIL= # Add Email
+      - MYEMAILPASS= # Add Pass
     ports:
       - "80:80"
     depends_on:
