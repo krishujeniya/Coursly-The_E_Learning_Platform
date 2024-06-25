@@ -1,5 +1,3 @@
-# Coursly-The_E_Learning_Platform
-https://bit.ly/Coursly
 <a id="readme-top"></a>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/krishujeniya/Coursly-The_E_Learning_Platform)
@@ -9,16 +7,18 @@ https://bit.ly/Coursly
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <img src="path_to_logo_image" alt="Logo" width="80" height="80">
+<div align="center">      <a href="https://bit.ly/Coursly">
 
-  <h1 align="center">Coursly-The E Learning Platform</h1>
+  <img src="assets/img/logo1.png" alt="Logo" width="80" height="80"></a>
+<a href="https://bit.ly/Coursly">
+  <h1 align="center">Coursly-The E Learning Platform</h1></a>
 </div>
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
+
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#key-features">Key Features</a></li>
@@ -43,7 +43,6 @@ https://bit.ly/Coursly
 <p>Coursly is your go-to platform for IT education. Our video courses are designed to empower individuals with practical knowledge and expertise in the fast-paced world of information technology. With a wide catalog of courses and flexible learning options, you can access our high-definition videos anytime, anywhere, and on any device. From beginners to advanced learners, Coursly offers interactive learning experiences, quizzes, coding challenges, and hands-on exercises to enhance your skills. Join our supportive community, earn industry-recognized certificates, and embark on a rewarding IT journey with Coursly.</p>
 <p>Our goal is to create user-friendly and visually appealing web applications that provide seamless experiences. I am detail-oriented, collaborative, and always eager to learn and grow as a developer.</p>
 
-<h5>Developed By: <a href="https://portfolio-of-krish-ujeniya.000webhostapp.com" target="_blank" class="m-2 text-decoration-none text-dark">AI DRAGO Team</a></h5>
 
 ### Key Features
 
