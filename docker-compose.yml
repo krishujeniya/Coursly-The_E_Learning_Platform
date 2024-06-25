@@ -1,0 +1,32 @@
+version: '3'
+services:
+  db: 
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=students
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password # this should live in a env var
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1 # equivalent to True
+    volumes:
+      - "./:/docker-entrypoint-initdb.d" # this is how we persist a sql db even when container stops
+
+  www:
+    image: php:apache
+    volumes:
+      - "./:/var/www/html" # sync the current dir on local machine to the dir of container
+    environment:
+      - MYSQL_USER=root
+      - MY_EMAIL=aidrago0021@gmail.com      
+      - MY_EMAILPASS=khmdxzndfhejgajg
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=students 
+    ports:
+      - 80:80
+      - 443:443 # for future ssl traffic
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8001:80
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
