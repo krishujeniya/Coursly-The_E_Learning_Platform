@@ -1,13 +1,13 @@
 <?php
 session_start();
 
-$servername = 'localhost';
-$username = getenv('MYSQL_USER');
-$password = getenv('MYSQL_PASSWORD');
-$dbname = getenv('MYSQL_DATABASE');
-
+$servername = 'db'; // Use 'db' instead of 'localhost'
+$username = 'root';
+$password = 'password@123';
+$dbname = 'students';
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
+
 
 
 if (isset($_SESSION['email'])) {
